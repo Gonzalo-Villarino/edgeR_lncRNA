@@ -162,7 +162,7 @@ for (my.contrast in interesting.contrasts) {
 
 
 ################################################
-#RPKM CALCULTING (Qiwen TAIR10.gene.length) #### 
+# RPKM CALCULTING (TAIR10.gene.length)      #### 
 ################################################
 
 # calculate gene lenght 
@@ -194,7 +194,7 @@ str(table)
 #write.table(edgeR_table,file="edgeR_table")
 
 #######################################################################################
-# Get non-coding RNAs (lncRNAs)
+# Get non-coding proteins (loosly talking  lncRNAs)
 #######################################################################################
 
 names(gene_anno) = c("name","anno")
